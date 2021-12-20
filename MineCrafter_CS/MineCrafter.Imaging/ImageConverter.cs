@@ -12,7 +12,6 @@ namespace MineCrafter.Imaging
         private bool disposedValue;
 
         private FileInfo OriginalPath { get; set; }
-        private string SaveTo { get; set; }
         private int CellSize { get; set; }
         private int NewWidth { get; set; }
         private int NewHeight { get; set; }
@@ -34,10 +33,9 @@ namespace MineCrafter.Imaging
             get { return OriginalPath.Extension; }
         }
 
-        public ImageConverter(string originalPath, string saveTo, int cellSize, int newWidth)
+        public ImageConverter(string originalPath, int cellSize, int newWidth)
         {
             OriginalPath = new FileInfo(originalPath);
-            SaveTo = saveTo;
             CellSize = cellSize;
             NewWidth = newWidth;
 
