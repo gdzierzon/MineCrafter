@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "//+Wobg3C7cvCEYMHCL+tyjzHK5B1L7XuePJ1Z/vJNAzFHCaABGD8HwJ5HQhuliHzTlZLd/K4YyseT3SQTbU9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\grego\\workspace\\TheMinecrafter\\MineCrafter\\MineCrafter.Console\\MineCrafter.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\grego\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\grego\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

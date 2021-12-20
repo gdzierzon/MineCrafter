@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MineCrafter.Console", "MineCrafter.Console\MineCrafter.Console.csproj", "{7D093911-669D-44D1-9D4E-5421A01D07A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MineCrafter.Imaging", "MineCrafter.Imaging\MineCrafter.Imaging.csproj", "{771AB6CB-CD6E-4D89-9677-449BD60376D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D093911-669D-44D1-9D4E-5421A01D07A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D093911-669D-44D1-9D4E-5421A01D07A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D093911-669D-44D1-9D4E-5421A01D07A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D093911-669D-44D1-9D4E-5421A01D07A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771AB6CB-CD6E-4D89-9677-449BD60376D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771AB6CB-CD6E-4D89-9677-449BD60376D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771AB6CB-CD6E-4D89-9677-449BD60376D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771AB6CB-CD6E-4D89-9677-449BD60376D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84FAF882-D17C-4398-8978-0BC5B8AA8C2E}
+	EndGlobalSection
+EndGlobal

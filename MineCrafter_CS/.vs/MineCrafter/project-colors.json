@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7d093911-669d-44d1-9d4e-5421a01d07a4": {
+      "ProjectGuid": "7d093911-669d-44d1-9d4e-5421a01d07a4",
+      "DisplayName": "MineCrafter.Console",
+      "ColorIndex": 0
+    },
+    "771ab6cb-cd6e-4d89-9677-449bd60376d0": {
+      "ProjectGuid": "771ab6cb-cd6e-4d89-9677-449bd60376d0",
+      "DisplayName": "MineCrafter.Imaging",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
