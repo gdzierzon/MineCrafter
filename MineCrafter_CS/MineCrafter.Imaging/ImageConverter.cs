@@ -98,10 +98,10 @@ namespace MineCrafter.Imaging
             return destination;
         }
 
-        public String ToHtml()
+        public string ToHtml()
         {
-            Bitmap source = new Bitmap(Pixel);
-            int width = NewWidth * CellSize;
+            var source = new Bitmap(Pixel);
+            var width = NewWidth * CellSize;
 
             var builder = new StringBuilder();
             builder.AppendLine("<html><head><style>");
@@ -132,7 +132,7 @@ namespace MineCrafter.Imaging
             SaveImage(Final, fileName);
         }
 
-        private void SaveImage(Image image, String fileName)
+        public void SaveImage(Image image, String fileName)
         {
             image.Save(fileName);
         }
@@ -156,7 +156,8 @@ namespace MineCrafter.Imaging
 
         public void Dispose()
         {
-            // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
+            // Do not change this code.
+            // Put cleanup code in 'Dispose(bool disposing)' method
             Dispose(disposing: true);
             GC.SuppressFinalize(this);
         }

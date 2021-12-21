@@ -13,7 +13,6 @@ namespace MineCrafter.Console
             int cellSize;
             int newWidth;
 
-
             System.Console.WriteLine();
             System.Console.Write("Enter the path of the image to convert? ");
             originalPath = System.Console.ReadLine();
@@ -30,9 +29,7 @@ namespace MineCrafter.Console
             System.Console.Write("Enter the path and name of the html file? ");
             saveToPath = System.Console.ReadLine();
 
-
-
-            using (var converter = new ImageConverter(originalPath, cellSize, newWidth))
+            using(var converter = new ImageConverter(originalPath, cellSize, newWidth))
             using(var writer = new StreamWriter(saveToPath))
             {
                 var html = converter.ToHtml();
